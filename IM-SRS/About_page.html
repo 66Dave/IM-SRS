@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reyken</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        .header img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+        .nav {
+            margin-left: auto;
+        }
+        .nav a {
+            margin-left: 15px;
+            text-decoration: none;
+            color: black;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .content .section {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .content img {
+            width: 300px;
+            height: auto;
+            border-radius: 5px;
+        }
+        .content .text {
+            flex: 1;
+        }
+        .text h2 {
+            margin: 0;
+        }
+        .read-more {
+            background: #ccc;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .highlighted img {
+            border: 3px solid purple;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="logo.png" alt="Logo">
+            <h2>REYKEN</h2>
+            <div class="nav">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">SHOP</a>
+                <a href="#">CART</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="section">
+                <img src="image1.jpg" alt="Products">
+                <div class="text">
+                    <h2>wheel ni siya</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="read-more">READ MORE</button>
+                </div>
+            </div>
+            <div class="section">
+                <div class="text">
+                    <h2>battery??</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="read-more">READ MORE</button>
+                </div>
+                <div class="highlighted">
+                    <img src="image2.jpg" alt="Soaps">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
