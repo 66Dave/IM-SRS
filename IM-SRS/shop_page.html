@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f5f0;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+        .nav {
+            margin-left: auto;
+        }
+        .nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .nav a.active {
+            color: #b07f50;
+        }
+        .shop-container {
+            text-align: center;
+            padding: 40px;
+        }
+        .shop-container h2 {
+            font-style: italic;
+        }
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .product {
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 220px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .product button {
+            margin-top: 10px;
+            padding: 10px;
+            border: none;
+            background: #b07f50;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 5px;
+        }
+        .product button:hover {
+            background: #9a6a3e;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="logo.png" alt="Logo" class="logo">
+        <h2>REYKEN</h2>
+        <nav class="nav">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#" class="active">SHOP</a>
+            <a href="#">CART</a>
+        </nav>
+    </header>
+    <div class="shop-container">
+        <h2>ONLINE SHOP</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        <div class="products">
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>$5.00</p>
+                <button>ADD TO CART</button>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>$5.00</p>
+                <button>ADD TO CART</button>
+            </div>
+            <div class="product">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>$5.00</p>
+                <button>ADD TO CART</button>
+            </div>
+            <div class="product">
+                <img src="product4.jpg" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>$5.00</p>
+                <button>ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
